@@ -24,7 +24,7 @@ const Header = () => {
 
             <div className="navbar-right">
                 <ul>
-                    <li className="navbar-email">platzi@example.com</li>
+                    <li className="navbar-email">pablogranados22@hotmail.com</li>
                     <li className="navbar-shopping-cart">
                         <img src="./icons/icon_shopping_cart.svg" alt="shopping cart" />
                         <div>2</div>
