@@ -1,5 +1,5 @@
 import React from 'react';
-import '../estilos/RecuperarPw.scss';
+import '../styles/RecuperarPw.scss';
 
 const RecuperarPw = () => {
 	return (

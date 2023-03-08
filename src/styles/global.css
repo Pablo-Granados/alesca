@@ -10,3 +10,7 @@ body {
   padding: 0;
   font-family: 'Quicksand', sans-serif;
 }
+
+.Layout{
+  width: 100%;
+}
