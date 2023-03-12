@@ -1,7 +1,7 @@
 import React from 'react';
 import OrderItem from '../componentes/OrderItem';
-import Menu from '../componentes/Menu';
-import '../styles/Checkout.scss';
+import Menu from '@componentes/Menu';
+import "@styles/styles.scss";
 
 const Checkout = () => {
 	return (

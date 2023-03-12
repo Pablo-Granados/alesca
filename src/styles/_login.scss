@@ -1,0 +1,92 @@
+.login {
+	width: 100%;
+	height: auto;
+	display: grid;
+	place-items: center;
+	align-items: start;
+}
+
+.login-container {
+	margin-top: 3.5em;
+	border-radius: 1em;
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+	background-color: #feebed;
+	width: 75%;
+	justify-items: center;
+}
+
+.logo {
+	justify-self: center;
+	display: flex;
+}
+
+.logo h2 {
+	font-size: 3em;
+}
+
+.form {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 85%;
+}
+
+.form a {
+	color: var(--light-black);
+	font-size: var(--md);
+	text-align: center;
+	text-decoration: none;
+}
+
+.label {
+	font-size: var(--md);
+	font-weight: bold;
+	margin-bottom: 0.15em;
+}
+
+.input {
+	background-color: var(--text-input-field);
+	border: none;
+	border-radius: 0.75em;
+	height: 2em;
+	font-size: var(--md);
+	padding-left: 1em;
+	padding-right: 1em;
+
+}
+
+.input-email {
+	margin-bottom: 1.25em;
+}
+
+.primary-button {
+	background-color: var(--light-black) !important;
+	border-radius: 0.75em;
+	border: none;
+	color: var(--white);
+	width: 100%;
+	cursor: pointer;
+	font-size: var(--md);
+	font-weight: bold;
+	height: 3em;
+}
+
+.secondary-button {
+	margin-top: 1em;
+	margin-bottom: 0.5em;
+	background-color: var(--white);
+	border-radius: 1em;
+	border: 0px solid var(--light-black) !important;
+	color: var(--light-black) !important;
+	width: 75%;
+	cursor: pointer;
+	font-size: var(--md);
+	font-weight: bold;
+	height: 2.5em;
+}
+
+.login-button {
+	margin-top: 1em;
+	margin-bottom: 1.75em;
+}
