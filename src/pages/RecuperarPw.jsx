@@ -19,8 +19,8 @@ const RecuperarPw = () => {
 				</div>
 				<button className="primary-button login-button">Login</button>
 				<p className="resend">
-					<span>Didn't receive the email?</span>
-					<a href="/">Resend</a>
+					<span>¿No recibió el correo?</span>
+					<a href="/">Reenviar</a>
 				</p>
 			</div>
 		</div>
