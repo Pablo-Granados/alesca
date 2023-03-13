@@ -5,7 +5,9 @@ import Menu from '@componentes/Menu';
 
 import menu from "@icons/icon_menu.svg";
 import logo from "@logos/logo_yard_sale.svg"
-import shoppingCart from "@icons/icon_shopping_cart.svg"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faUser } from "@fortawesome/free-solid-svg-icons";
+import { Link } from 'react-router-dom';
 
 
 const Header = () => {
@@ -22,36 +24,34 @@ const Header = () => {
 			<img src={menu} alt="menu"  />
 			</div>
 			<div className="navbar-left">
+				<Link to="/">
 				<img src={logo} alt="logo" className="logo" />
+				</Link>
 				<ul>
 					<li>
-						<a href="/">All</a>
+						<Link href="/">Inicio</Link>
 					</li>
 					<li>
-						<a href="/">Clothes</a>
+						<a href="/">Graduaciones</a>
 					</li>
 					<li>
-						<a href="/">Electronics</a>
+						<a href="/">Quinceañeras</a>
 					</li>
 					<li>
-						<a href="/">Furnitures</a>
+						<a href="/">Fiestas</a>
 					</li>
 					<li>
-						<a href="/">Toys</a>
-					</li>
-					<li>
-						<a href="/">Others</a>
+						<a href="/">Niñas</a>
 					</li>
 				</ul>
 			</div>
 			<div className="navbar-right">
 				<ul>
-					<li className="navbar-email" onClick={handleToggle}>
+					{/* <li className="navbar-email" onClick={handleToggle}>
 						pablogranados22@hotmail.com
-						</li>
-					<li className="navbar-shopping-cart">
-						<img src={shoppingCart} alt="shopping cart" />
-						<div>2</div>
+						</li> */}
+					<li className="navbar-email" onClick={handleToggle}>
+					<FontAwesomeIcon icon={faUser} />
 					</li>
 				</ul>
 			</div>

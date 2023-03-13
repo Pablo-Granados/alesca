@@ -13,6 +13,7 @@ import NotFound from '../pages/NotFound'
 import Orders from '../pages/Orders'
 import SendEmail from '../pages/SendEmail'
 import Turnos from '../turnero/Turnos'
+import AppContext from '../context/AppContext'
 
 
 
@@ -20,6 +21,7 @@ import Turnos from '../turnero/Turnos'
 
 const App = () => {
   return (
+    <AppContext.Provider value={""}>
     <BrowserRouter>
       <Layout>
         <Routes>
@@ -37,6 +39,7 @@ const App = () => {
         <Turnos />
       </Layout>
     </BrowserRouter>
+    </AppContext.Provider>
   )
 }
 
