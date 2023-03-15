@@ -29,6 +29,7 @@
     "react-calendly": "^4.1.1",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.8.1",
+    "react-slideshow-image": "^4.2.1",
     "webpack": "^5.75.0",
     "webpack-cli": "^5.0.1",
     "webpack-dev-server": "^4.11.1"

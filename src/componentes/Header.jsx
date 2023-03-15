@@ -4,8 +4,7 @@ import "@styles/styles.scss";
 import Menu from '@componentes/Menu';
 
 import menu from "@icons/icon_menu.svg";
-import logo from "@logos/logo_yard_sale.svg"
-import shoppingCart from "@icons/icon_shopping_cart.svg"
+import ShoppingCartItem from './ShoppingCartItem';
 
 
 const Header = () => {
@@ -22,7 +21,12 @@ const Header = () => {
 			<img src={menu} alt="menu"  />
 			</div>
 			<div className="navbar-left">
-				<img src={logo} alt="logo" className="logo" />
+				<img 
+				src={"https://i.postimg.cc/TwFgXLGG/descarga-1.jpg"} 
+				alt="logo" 
+				width="200px" 
+				height="65px" 
+				className="logo" />
 				<ul>
 					<li>
 						<a href="/">All</a>
@@ -50,8 +54,7 @@ const Header = () => {
 						pablogranados22@hotmail.com
 						</li>
 					<li className="navbar-shopping-cart">
-						<img src={shoppingCart} alt="shopping cart" />
-						<div>2</div>
+						<ShoppingCartItem />
 					</li>
 				</ul>
 			</div>
