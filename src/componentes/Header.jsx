@@ -4,9 +4,10 @@ import "@styles/styles.scss";
 import Menu from '@componentes/Menu';
 
 import menu from "@icons/icon_menu.svg";
-import ShoppingCartItem from './ShoppingCartItem';
 import { Link } from 'react-router-dom';
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faUser } from "@fortawesome/free-solid-svg-icons";
 
 
 const Header = () => {
@@ -23,7 +24,7 @@ const Header = () => {
 			<img src={menu} alt="menu"  />
 			</div>
 			<div className="navbar-left">
-				<img 
+				<Link to="/"
 				src={"https://i.postimg.cc/TwFgXLGG/descarga-1.jpg"} 
 				alt="logo" 
 				width="200px" 
@@ -31,30 +32,24 @@ const Header = () => {
 				className="logo" />
 				<ul>
 					<li>
-						<a href="/">All</a>
+						<Link href="/">Inicio</Link>
 					</li>
 					<li>
-						<a href="/">Clothes</a>
+						<a href="/">Graduaciones</a>
 					</li>
 					<li>
-						<a href="/">Electronics</a>
+						<a href="/">Quinceañeras</a>
 					</li>
 					<li>
-						<a href="/">Furnitures</a>
+						<a href="/">Fiestas</a>
 					</li>
 					<li>
-						<a href="/">Toys</a>
-					</li>
-					<li>
-						<a href="/">Others</a>
+						<a href="/">Niñas</a>
 					</li>
 				</ul>
 			</div>
 			<div className="navbar-right">
 				<ul>
-					{/* <li className="navbar-email" onClick={handleToggle}>
-						pablogranados22@hotmail.com
-						</li> */}
 					<li className="navbar-email" onClick={handleToggle}>
 					<FontAwesomeIcon icon={faUser} />
 					</li>

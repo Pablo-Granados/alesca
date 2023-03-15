@@ -2,6 +2,7 @@ import React from 'react';
 import "@styles/styles.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUnlockKeyhole } from "@fortawesome/free-solid-svg-icons";
+import { Link } from 'react-router-dom';
 
 
 const RecuperarPw = () => {
@@ -17,10 +18,12 @@ const RecuperarPw = () => {
 				<div className="email-image">
 					<img src="./icons/email.svg" alt="email" />
 				</div>
-				<button className="primary-button login-button">Login</button>
+				<button className="primary-button login-button">
+					<Link to="/login">Iniciar sesión</Link>
+				</button>
 				<p className="resend">
-					<span>Didn't receive the email?</span>
-					<a href="/">Resend</a>
+					<span>¿No recibió el correo?</span>
+					<a href="/">Reenviar</a>
 				</p>
 			</div>
 		</div>

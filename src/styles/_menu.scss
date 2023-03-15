@@ -1,12 +1,14 @@
 .Menu {
-	width: 10em;
+	background-color: whitesmoke;
+	width: 6em;
 	height: auto;
 	border: 0.1em solid var(--very-light-pink);
 	border-radius: 0.6em;
 	padding: 2em 2em 0em 2em;
 	position: absolute;
-	top: 6em;
-	right: 5em;
+	top: 4em;
+	right: 0em;
+	margin-left: 1em;
 }
 .Menu ul {
 	list-style: none;
@@ -14,19 +16,19 @@
 	margin: 0;
 }
 .Menu ul li {
-	text-align: end;
+	text-align: center;
 }
 .Menu ul li:nth-child(1),
 .Menu ul li:nth-child(2) {
 	font-weight: bold;
 }
 .Menu ul li:last-child {
-	// padding-top: 20px;
 	border-top: 1px solid var(--very-light-pink);
 }
 .Menu ul li:last-child a {
-	color: var(--hospital-green);
+	color: var(--light-black);
 	font-size: var(--sm);
+	margin-top: 1.5em;
 }
 .Menu ul li a {
 	color: var(--back);

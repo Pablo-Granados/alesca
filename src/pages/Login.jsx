@@ -2,18 +2,21 @@ import React, { useRef } from 'react';
 import "@styles/styles.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser } from "@fortawesome/free-solid-svg-icons";
+import { Link } from 'react-router-dom';
 
 
 const Login = () => {
 
   const form = useRef(null);
 
-  const handleSubmit = () => {
+  const handleSubmit = (event) => {
+    event.preventDefault();
     const formData = new FormData(form.current);
     const data = {
       usename: formData.get("email"),
       password: formData.get("password")
     }
+    console.log(data);
   }
 
 
@@ -28,12 +31,15 @@ const Login = () => {
           <input type="text" name="email" placeholder="aaaaaaaaa@aaaa.com.ar" className="input input-email" />
           <label htmlFor="new-password" className="label">Contraseña</label>
           <input type="password" name="password" placeholder="*********" className="input input-password" />
-          <input type="submit" value="Iniciar sesión" className="primary-button login-button" />
-          <a href="/">Olvidé mi contraseña</a>
+          <button
+            onClick={handleSubmit}
+            className="primary-button login-button">
+            Iniciar sesión
+          </button>
+          <Link to="/recuperar-contraseña">Olvidé mi contraseña</Link>
         </form>
         <button
-          className="secondary-button signup-button"
-          onClick={handleSubmit}>
+          className="secondary-button signup-button">
           Registrarme
         </button>
       </div>
