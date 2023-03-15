@@ -50,6 +50,7 @@ nav {
 	border: 1px solid var(--white);
 	// padding: 8px;
 	border-radius: 8px;
+	margin-left: 1rem;
 }
 .navbar-left ul li a:hover,
 .navbar-right ul li a:hover {
@@ -57,35 +58,22 @@ nav {
 	color: var(--hospital-green);
 }
 .navbar-email {
-	color: var(--very-light-pink);
-	font-size: var(--sm);
+	color: var(--light-black) !important;
+	font-size: var(--lg);
+	margin-right: 1em;
 	// margin-right: 12px;
 }
-.navbar-shopping-cart {
-margin-right: 1rem;	position: relative;
-}
-.navbar-shopping-cart div {
-	// width: 16px;
-	// height: 16px;
-	background-color: var(--hospital-green);
-	border-radius: 50%;
-	font-size: var(--sm);
-	font-weight: bold;
-	position: absolute;
-	// top: -6px;
-	// right: -3px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
+
+
 @media (max-width: 640px) {
 	.menu {
 		display: flex;
+		margin-left: 1em;
 	}
 	.navbar-left ul {
 		display: none;
 	}
-	.navbar-email {
-		display: none;
-	}
+	// .navbar-email {
+	// 	display: none;
+	// }
 }

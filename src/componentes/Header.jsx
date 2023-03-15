@@ -5,6 +5,8 @@ import Menu from '@componentes/Menu';
 
 import menu from "@icons/icon_menu.svg";
 import ShoppingCartItem from './ShoppingCartItem';
+import { Link } from 'react-router-dom';
+
 
 
 const Header = () => {
@@ -50,11 +52,11 @@ const Header = () => {
 			</div>
 			<div className="navbar-right">
 				<ul>
-					<li className="navbar-email" onClick={handleToggle}>
+					{/* <li className="navbar-email" onClick={handleToggle}>
 						pablogranados22@hotmail.com
-						</li>
-					<li className="navbar-shopping-cart">
-						<ShoppingCartItem />
+						</li> */}
+					<li className="navbar-email" onClick={handleToggle}>
+					<FontAwesomeIcon icon={faUser} />
 					</li>
 				</ul>
 			</div>
