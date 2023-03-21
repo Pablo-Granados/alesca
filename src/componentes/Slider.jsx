@@ -12,7 +12,7 @@ const Slider = () => {
     return (
         <Zoom scale={1.4} indicators={false} autoplay={false}>
             {images.map((each, index) => (
-                <div key={index} style={{ width: "100%", height: "auto", display: "flex" }}>
+                <div key={index} style={{ width: "100%", height: "auto", display: "flex"}}>
                     <img style={{ objectFit: "cover", width: "100%", display: "flex" }} alt="Slide Image" src={each} />
                 </div>
             ))}

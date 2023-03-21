@@ -1,35 +1,34 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import "@styles/styles.scss";
 
 import Menu from '@componentes/Menu';
-
-import menu from "@icons/icon_menu.svg";
 import { Link } from 'react-router-dom';
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faUser } from "@fortawesome/free-solid-svg-icons";
+import { faUser, faBars } from "@fortawesome/free-solid-svg-icons";
 
 
 const Header = () => {
 	const [toggle, setToggle] = useState(false);
 
 	const handleToggle = () => {
-		setToggle(!toggle);
+		setToggle(!toggle)
 	}
 
-	
+
 	return (
 		<nav>
 			<div className="menu">
-			<img src={menu} alt="menu"  />
+				<FontAwesomeIcon icon={faBars} size="xl" style={{ color: "#15191d" }} />
 			</div>
 			<div className="navbar-left">
 				<Link to="/"
-				src={"https://i.postimg.cc/TwFgXLGG/descarga-1.jpg"} 
-				alt="logo" 
-				width="200px" 
-				height="65px" 
-				className="logo" />
+					alt="logo"
+					className="logo"
+				>
+					<img src="https://i.postimg.cc/TwFgXLGG/descarga-1.webp" width="200px"
+						height="65px" alt="" />
+				</Link>
 				<ul>
 					<li>
 						<Link href="/">Inicio</Link>
@@ -51,11 +50,11 @@ const Header = () => {
 			<div className="navbar-right">
 				<ul>
 					<li className="navbar-email" onClick={handleToggle}>
-					<FontAwesomeIcon icon={faUser} />
+						<FontAwesomeIcon icon={faUser} />
 					</li>
 				</ul>
 			</div>
-			{toggle && <Menu />}	
+			{toggle && <Menu />}
 		</nav>
 	);
 }
