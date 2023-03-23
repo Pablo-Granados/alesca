@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import "@styles/styles.scss";
 
 import Menu from '@componentes/Menu';
@@ -10,6 +11,11 @@ import { faUser, faBars } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
 	const [toggle, setToggle] = useState(false);
+	const location = useLocation();
+
+	useEffect(() => {
+		setToggle(false);
+	}, [location]);
 
 	const handleToggle = () => {
 		setToggle(!toggle)
@@ -31,7 +37,7 @@ const Header = () => {
 				</Link>
 				<ul>
 					<li>
-						<Link href="/">Inicio</Link>
+						<Link to={"/"}>Inicio</Link>
 					</li>
 					<li>
 						<a href="/">Graduaciones</a>

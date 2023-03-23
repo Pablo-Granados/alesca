@@ -6,9 +6,12 @@ nav {
 }
 
 .menu {
-	display: none;
 	display: flex;
-	margin-left: 1em
+	margin-left: 1em;
+
+	@media (min-width: 640px) {
+		display: none;
+	}
 }
 
 // .logo{
@@ -26,7 +29,11 @@ nav {
 }
 
 .navbar-left ul li{
-	display: none
+	display: none;
+
+	@media (min-width: 640px) {
+		display: flex;
+	}
 }
 
 // .navbar-left img {
