@@ -1,15 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-import "@styles/styles.scss";
 
 import Menu from '@componentes/Menu';
 import { Link } from 'react-router-dom';
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser, faBars } from "@fortawesome/free-solid-svg-icons";
+import Navbar from './Navbar';
 
 
 const Header = () => {
+
 	const [toggle, setToggle] = useState(false);
 	const location = useLocation();
 
@@ -21,11 +22,24 @@ const Header = () => {
 		setToggle(!toggle)
 	}
 
+	const [toggleNav, setToggleNav] = useState(false);
+	const locationNav = useLocation();
+
+	useEffect(() => {
+		setToggleNav(false);
+	}, [locationNav]);
+
+	const handleToggleNav = () => {
+		setToggleNav(!toggleNav)
+	}
+
+
 
 	return (
 		<nav>
-			<div className="menu">
+			<div className="menu" onClick={handleToggleNav}>
 				<FontAwesomeIcon icon={faBars} size="xl" style={{ color: "#15191d" }} />
+				{toggleNav && <Navbar />}
 			</div>
 			<div className="navbar-left">
 				<Link to="/"

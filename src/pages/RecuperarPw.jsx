@@ -1,5 +1,4 @@
 import React from 'react';
-import "@styles/styles.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUnlockKeyhole } from "@fortawesome/free-solid-svg-icons";
 import { Link } from 'react-router-dom';

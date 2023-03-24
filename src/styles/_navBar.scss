@@ -1,0 +1,35 @@
+.navbar-component{
+    background-color: whitesmoke;
+	width: 4.5em;
+	height: auto;
+	border: 0.1em solid var(--very-light-pink);
+	border-radius: 0.6em;
+	padding: 1em 2em 0.5em 2em;
+    position: absolute;
+    top: 4em;
+    left: 0em;
+	z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar-component ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.navbar-component ul li {
+	text-align: center;
+
+}
+.navbar-component ul li:nth-child {
+	font-weight: bold;
+
+}
+.navbar-component ul li a {
+	color: var(--back);
+	text-decoration: none;
+	margin-bottom: 1em;
+	display: inline-block;
+}

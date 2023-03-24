@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Layout from '../containers/Layout'
 import Login from '../pages/Login'
 import RecuperarPw from '../pages/RecuperarPw'
+import "@styles/styles.scss";
 import "../styles/global.css"
 import CreateAccount from '../pages/CreateAccount'
 import Home from "../pages/Home"
