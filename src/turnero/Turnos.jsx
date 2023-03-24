@@ -13,8 +13,8 @@ const Turnos = () => {
          */
         rootElement={document.getElementById("root")}
         text="Agenda una cita!"
-        textColor="#f5f5f5"
-        color="#212529"
+        textColor="#212529"
+        color="#dccc94 "
       />
     </div>  )
 }

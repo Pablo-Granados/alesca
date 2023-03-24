@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
-
 import Menu from '@componentes/Menu';
 import { Link } from 'react-router-dom';
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser, faBars } from "@fortawesome/free-solid-svg-icons";
 import Navbar from './Navbar';

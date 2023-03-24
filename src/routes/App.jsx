@@ -16,6 +16,7 @@ import Fiestas from '../pages/Fiestas'
 import Graduaciones from '../pages/Graduaciones'
 import Niñas from '../pages/Niñas'
 import Quinces from '../pages/Quinces'
+import Footer from '../componentes/Footer'
 
 const App = () => {
   return (
@@ -36,6 +37,7 @@ const App = () => {
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Turnos />
+        <Footer />
       </Layout>
     </BrowserRouter>
   )

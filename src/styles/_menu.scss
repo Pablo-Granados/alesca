@@ -2,7 +2,7 @@
 	background-color: whitesmoke;
 	width: 6em;
 	height: auto;
-	border: 0.1em solid var(--very-light-pink);
+	border: 0.1em solid var(--dorado);
 	border-radius: 0.6em;
 	padding: 2em 2em 0em 2em;
 	position: absolute;
@@ -24,7 +24,7 @@
 	font-weight: bold;
 }
 .Menu ul li:last-child {
-	border-top: 1px solid var(--very-light-pink);
+	border-top: 1px solid var(--dorado);
 }
 .Menu ul li:last-child a {
 	color: var(--light-black);
