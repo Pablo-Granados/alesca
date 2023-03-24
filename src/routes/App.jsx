@@ -4,24 +4,20 @@ import Layout from '../containers/Layout'
 import Login from '../pages/Login'
 import RecuperarPw from '../pages/RecuperarPw'
 import "../styles/global.css"
-import Checkout from '../pages/Checkout'
 import CreateAccount from '../pages/CreateAccount'
 import Home from "../pages/Home"
 import MyAccount from '../pages/MyAccount'
 import NewPassword from '../pages/NewPassword'
 import NotFound from '../pages/NotFound'
-import Orders from '../pages/Orders'
 import SendEmail from '../pages/SendEmail'
 import Turnos from '../turnero/Turnos'
-import AppContext from '../context/AppContext'
-
-
-
-
+import Fiestas from '../pages/Fiestas'
+import Graduaciones from '../pages/Graduaciones'
+import Niñas from '../pages/Niñas'
+import Quinces from '../pages/Quinces'
 
 const App = () => {
   return (
-    <AppContext.Provider value={""}>
     <BrowserRouter>
       <Layout>
         <Routes>
@@ -32,14 +28,15 @@ const App = () => {
           <Route path="/new-password" element={<NewPassword />} />
           <Route path="/account" element={<MyAccount />} />
           <Route path="/create" element={<CreateAccount />} />
-          <Route path="/checkout" element={<Checkout />} />
-          <Route path="/orders" element={<Orders />} />
+          <Route path="/graduaciones" element={<Graduaciones />} />
+          <Route path="/quinces" element={<Quinces />} />
+          <Route path="/fiestas" element={<Fiestas />} />
+          <Route path="/niñas" element={<Niñas />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Turnos />
       </Layout>
     </BrowserRouter>
-    </AppContext.Provider>
   )
 }
 

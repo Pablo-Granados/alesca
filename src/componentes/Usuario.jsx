@@ -3,7 +3,7 @@ import "@styles/styles.scss";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser } from '@fortawesome/free-solid-svg-icons';
 
-const ShoppingCartItem = () => {
+const Usuario = () => {
 	return (
 		<div className="ShoppingCartItem">
 			{/* <figure>
@@ -16,4 +16,4 @@ const ShoppingCartItem = () => {
 	);
 }
 
-export default ShoppingCartItem;
+export default Usuario;

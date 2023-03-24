@@ -40,16 +40,16 @@ const Header = () => {
 						<Link to={"/"}>Inicio</Link>
 					</li>
 					<li>
-						<a href="/">Graduaciones</a>
+						<Link to={"graduaciones"}>Graduaciones</Link>
 					</li>
 					<li>
-						<a href="/">Quinceañeras</a>
+						<Link to={"quinces"}>Quinceañeras</Link>
 					</li>
 					<li>
-						<a href="/">Fiestas</a>
+						<Link to={"fiestas"}>Fiestas</Link>
 					</li>
 					<li>
-						<a href="/">Niñas</a>
+						<Link to={"niñas"}>Niñas</Link>
 					</li>
 				</ul>
 			</div>
