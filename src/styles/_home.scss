@@ -1,3 +1,37 @@
 .inicio{
 	margin-top: 6.5em;
 }
+
+.contenedor-secciones-home a{
+    text-decoration: none;
+}
+
+.quinceañeras-home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    font-size: xx-large;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.graduaciones{
+    margin-top: 1rem;
+    height: 15rem;
+    cursor: pointer;
+    background-image: url("https://i.postimg.cc/gcxV7rg0/f1854082-d374-451b-bf8a-66e4e6cff54c-1.webp");
+    background-position-y: -8.5rem;
+    background-position-x: right;
+}
+
+.quinces{
+    margin-top: 1rem;
+    height: 15rem;
+    cursor: pointer;
+    background-image: url("https://i.postimg.cc/0NbgKhsz/Maria-391-1.webp");
+    background-position-x: left;
+    background-position-y: -2.5rem;
+}
+
+
