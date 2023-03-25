@@ -18,11 +18,9 @@ const Home = () => {
 						<p className="quinceañeras-home-portada"> QUINCEAÑERAS</p>
 					</div>
 				</Link>
-				<div className="animate__animated animate__fadeInUp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, amet. Nostrum accusamus sit illum iste temporibus quibusdam ipsum, qui natus recusandae unde architecto porro accusantium ipsa! Praesentium, ad. Recusandae, quae?</div>
-				<div className="animate__animated animate__fadeInUp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, amet. Nostrum accusamus sit illum iste temporibus quibusdam ipsum, qui natus recusandae unde architecto porro accusantium ipsa! Praesentium, ad. Recusandae, quae?</div>
-				<div className="animate__animated animate__fadeInUp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, amet. Nostrum accusamus sit illum iste temporibus quibusdam ipsum, qui natus recusandae unde architecto porro accusantium ipsa! Praesentium, ad. Recusandae, quae?</div>
-				<div className="animate__animated animate__fadeInUp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, amet. Nostrum accusamus sit illum iste temporibus quibusdam ipsum, qui natus recusandae unde architecto porro accusantium ipsa! Praesentium, ad. Recusandae, quae?</div>
-				<div className="animate__animated animate__fadeInUp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, amet. Nostrum accusamus sit illum iste temporibus quibusdam ipsum, qui natus recusandae unde architecto porro accusantium ipsa! Praesentium, ad. Recusandae, quae?</div>
+				<div className="animate__animated animate__fadeInUp">FIESTAS</div>
+				<div className="animate__animated animate__fadeInUp">NIÑAS</div>
+
 			</div>
 		</div>
 	);
