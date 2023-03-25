@@ -1,5 +1,42 @@
-.pie{
+.pie {
     margin-top: 2em;
     background-color: var(--light-black);
     color: var(--white);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.ubicacion {
+    width: 50%;
+}
+
+.redes {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes a img {
+    width: 20px;
+    transform: scale(1);
+
+    &:hover {
+        scale: 1.1;
+    }
+}
+
+.copy {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.copy .correo {
+    width: 100%;
+    text-align: start;
+    display: flex;
 }

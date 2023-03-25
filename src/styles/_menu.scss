@@ -6,7 +6,7 @@
 	border-radius: 0.6em;
 	padding: 2em 2em 0em 2em;
 	position: absolute;
-	top: 4em;
+	top: 4.5em;
 	right: 0em;
 	margin-left: 1em;
 	z-index: 2;
@@ -22,9 +22,14 @@
 .Menu ul li:nth-child(1),
 .Menu ul li:nth-child(2) {
 	font-weight: bold;
+
+	&:hover{
+		color: var(--dorado);
+	}
 }
 .Menu ul li:last-child {
 	border-top: 1px solid var(--dorado);
+
 }
 .Menu ul li:last-child a {
 	color: var(--light-black);
@@ -36,4 +41,8 @@
 	text-decoration: none;
 	margin-bottom: 20px;
 	display: inline-block;
+
+	&:hover{
+		color: var(--dorado);
+	}
 }

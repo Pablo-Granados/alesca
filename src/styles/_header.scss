@@ -1,23 +1,23 @@
 nav {
+	position: fixed;
 	display: flex;
 	justify-content: space-between;
 	background-color: white;
 	align-items: center;
+	z-index: 2;
+	top: 0;
+	width: 100%;
+	height: 4.5em;
 }
 
 .menu {
 	display: flex;
 	margin-left: 1em;
 
-	@media (min-width: 640px) {
+	@media (min-width: 800px) {
 		display: none;
 	}
 }
-
-// .logo{
-// 	display: flex;
-// 	justify-content: center;
-// }
 
 .navbar-left {
 	height: 100%;
@@ -26,22 +26,18 @@ nav {
 	align-items: center;
 	align-self: center;
 	align-content: center;
+
 }
 
-.navbar-left ul li{
+.navbar-left ul li {
 	display: none;
 
-	@media (min-width: 640px) {
+	@media (min-width: 800px) {
 		display: flex;
 	}
 }
 
-// .navbar-left img {
-// 	display: flex;
-// }
-// .logo {
-// 	width: 50%;
-// }
+
 .navbar-left ul,
 .navbar-right ul {
 	list-style: none;
@@ -52,45 +48,25 @@ nav {
 	height: 4rem;
 }
 
-// .navbar-left {
-// 	display: flex;
-// }
-// .navbar-left ul {
-// 	// margin-left: 12px;
-// }
 .navbar-left ul li a,
 .navbar-right ul li a {
 	text-decoration: none;
 	color: var(--dorado);
 	border: 1px solid var(--white);
-	// padding: 8px;
+	padding: 0.3em;
 	border-radius: 8px;
-	margin-left: 1rem;
+	margin-left: 1em;
+
+	&:hover {
+		border: 1px solid var(--dorado);
+		color: var(--dorado);
+		font-weight: bold;
+	}
 }
 
-.navbar-left ul li a:hover,
-.navbar-right ul li a:hover {
-	border: 1px solid var(--hospital-green);
-	color: var(--hospital-green);
-}
 
 .navbar-email {
 	color: var(--light-black) !important;
 	font-size: var(--lg);
 	margin-right: 1em;
-	// margin-right: 12px;
 }
-
-
-// @media (max-width: 640px) {
-// 	.menu {
-// 		display: flex;
-// 		margin-left: 1em;
-// 	}
-// 	.navbar-left ul {
-// 		display: none;
-// 	}
-// 	// .navbar-email {
-// 	// 	display: none;
-// 	// }
-// }

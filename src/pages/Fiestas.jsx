@@ -2,7 +2,7 @@ import React from 'react'
 
 const Fiestas = () => {
   return (
-    <div>Fiestas</div>
+    <div className="inicio">Fiestas</div>
   )
 }
 
