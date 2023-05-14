@@ -1,11 +1,17 @@
-import React from 'react'
+import React from 'react';
+import vestidosXV from '../data/vestidosXV';
+import Imagen from '../componentes/Imagen';
 
 const Quinces = () => {
   return (
-    <div className="inicio">
-        <div className="inicio-quinceañeras">
-            <img src="https://i.postimg.cc/0NbgKhsz/Maria-391-1.webp" alt="vestido blanco" />
-        </div>
+    <div className="inicioVestidos">
+      {vestidosXV.map((vestidoXV) => (
+        <Imagen 
+        url={vestidoXV.url} 
+        key={vestidoXV.url}
+        alt={vestidoXV.alt} />
+      ))}
+
     </div>
   )
 }

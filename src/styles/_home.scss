@@ -1,12 +1,12 @@
 .inicio{
-	margin-top: 6.5em;
+	margin-top: 2em;
 }
 
 .contenedor-secciones-home a{
     text-decoration: none;
 }
 
-.quinceañeras-home{
+.home{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,5 +31,23 @@
     cursor: pointer;
     background-image: url("https://i.postimg.cc/0NbgKhsz/Maria-391-1.webp");
     background-position-x: left;
+    background-position-y: -2.5rem;
+}
+
+.fiestas{
+    margin-top: 1rem;
+    height: 15rem;
+    cursor: pointer;
+    background-image: url("https://i.postimg.cc/RFyGRjV7/FRF-4339.webp");
+    background-position-x: right;
+    background-position-y: -7.5rem;
+}
+
+.niñas{
+    margin-top: 1rem;
+    height: 15rem;
+    cursor: pointer;
+    background-image: url("https://i.postimg.cc/x8RKJ77y/IMG-3736.webp");
+    background-position-x: center;
     background-position-y: -2.5rem;
 }

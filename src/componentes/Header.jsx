@@ -3,7 +3,7 @@ import { useLocation } from 'react-router-dom';
 import Menu from '@componentes/Menu';
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faUser, faBars } from "@fortawesome/free-solid-svg-icons";
+import { faComment, faBars } from "@fortawesome/free-solid-svg-icons";
 import Navbar from './Navbar';
 
 
@@ -67,12 +67,24 @@ const Header = () => {
 			</div>
 			<div className="navbar-right">
 				<ul>
+					<li className="navbar-email">
+						<FontAwesomeIcon icon={faComment}>
+							<a href="https://wa.me/5493416287921?text=Hola! Me gustaría agendar una cita." target="_blank" />
+
+						</FontAwesomeIcon>
+					</li>
+				</ul>
+
+			</div>
+
+			{/* <div className="navbar-right">
+				<ul>
 					<li className="navbar-email" onClick={handleToggle}>
 						<FontAwesomeIcon icon={faUser} />
 					</li>
-				</ul>
+				</ul> 
 			</div>
-			{toggle && <Menu />}
+			{toggle && <Menu />} */}
 		</nav>
 	);
 }

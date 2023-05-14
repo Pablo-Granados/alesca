@@ -1,5 +1,5 @@
 body {
-  background-color: whitesmoke;
+  background-color: var(--white);
   /* background-repeat: no-repeat; */
   background-position-x: center;
   background-position-y: 10vh;

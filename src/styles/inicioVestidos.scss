@@ -1,0 +1,16 @@
+.inicioVestidos{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.vestidos{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    width: 100%;
+    height: auto;
+}
+
+.vestidos img{
+    width: 80%;
+}
