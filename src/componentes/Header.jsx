@@ -36,7 +36,7 @@ const Header = () => {
 	return (
 		<nav>
 			<div className="menu" onClick={handleToggleNav}>
-				<FontAwesomeIcon icon={faBars} size="xl" style={{ color: "#15191d" }} />
+				<FontAwesomeIcon icon={faBars} size="xl" style={{ color: "#d3c37b" }} />
 				{toggleNav && <Navbar />}
 			</div>
 			<div className="navbar-left">
@@ -68,10 +68,9 @@ const Header = () => {
 			<div className="navbar-right">
 				<ul>
 					<li className="navbar-email">
-						<FontAwesomeIcon icon={faComment}>
-							<a href="https://wa.me/5493416287921?text=Hola! Me gustaría agendar una cita." target="_blank" />
-
-						</FontAwesomeIcon>
+							<a href="https://wa.me/5493416287921?text=Hola! Me gustaría agendar una cita." target="_blank">
+							<FontAwesomeIcon icon={faComment}/>
+							</a>
 					</li>
 				</ul>
 
