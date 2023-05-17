@@ -1,0 +1,17 @@
+.boton-subir {
+    position: fixed;
+    bottom: 50px;
+    left: 40px;
+    z-index: 100;
+    padding: 0px 10px 0px 10px;
+    border-radius: 50%;
+    background-color: var(--dorado);
+    color: var(--light-black);
+    font-size: xx-large;
+    font-weight: bolder;
+    cursor: pointer;
+    display: flex;
+    vertical-align: middle;
+    justify-content: center;
+
+}

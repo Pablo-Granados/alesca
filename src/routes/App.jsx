@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect, useState} from 'react'
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Layout from '../containers/Layout'
 import Login from '../pages/Login'
@@ -17,6 +17,7 @@ import Graduaciones from '../pages/Graduaciones'
 import Niñas from '../pages/Niñas'
 import Quinces from '../pages/Quinces'
 import Footer from '../componentes/Footer'
+import Subir from '../componentes/Subir'
 
 const App = () => {
   return (
@@ -36,6 +37,7 @@ const App = () => {
           <Route path="/niñas" element={<Niñas />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
+        <Subir />
         <Turnos />
         <Footer />
       </Layout>
