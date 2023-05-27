@@ -69,7 +69,7 @@ const Header = () => {
 				<ul>
 					<li className="navbar-email">
 							<a href="https://wa.me/5493416287921?text=Hola! Me gustaría agendar una cita." target="_blank">
-							<FontAwesomeIcon icon={faComment}/>
+							<FontAwesomeIcon icon={faComment} style={{fontSize: "x-large"}}/>
 							</a>
 					</li>
 				</ul>

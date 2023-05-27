@@ -1,3 +1,5 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faChevronCircleUp } from "@fortawesome/free-solid-svg-icons";
 import React, { useEffect, useState } from 'react'
 
 const Subir = () => {
@@ -36,8 +38,8 @@ const Subir = () => {
                     display: esVisible ? 'flex' : 'none',
                 }}
             >
-                ^
-            </button>
+                <FontAwesomeIcon icon={faChevronCircleUp} style={{color: "#d3c37b", background: "#000000", borderRadius: "50%"}} />
+                </button>
         </div>
     );
 }
