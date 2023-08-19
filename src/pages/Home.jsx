@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import HorizontalScroll from '../componentes/HorizontalScroll';
 import Slider from '../componentes/Slider';
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
 	return (
 		<div className="inicio">
 			<Slider />
+			<HorizontalScroll />
 			<div className="contenedor-secciones-home">
 				<Link to={"graduaciones"}>
 					<div className="animate__animated animate__fadeInUp home graduaciones">
