@@ -8,7 +8,14 @@ const Home = () => {
 	return (
 		<div className="inicio">
 			<Slider />
+			<div className='titulo-home'>
+				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat enim praesentium soluta cumque nam sint porro sunt ab nihil unde repellat dolore odio voluptatem voluptatum impedit accusamus, architecto repudiandae. Tempore.</p>
+
+			</div>
 			<HorizontalScroll />
+			<div className="subtitulo-home">
+				<p>¿Cuál es tu próximo evento?</p>
+			</div>
 			<div className="contenedor-secciones-home">
 				<Link to={"graduaciones"}>
 					<div className="animate__animated animate__fadeInUp home graduaciones">
