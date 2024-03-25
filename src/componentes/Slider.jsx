@@ -4,11 +4,11 @@ import 'react-slideshow-image/dist/styles.css';
 
 const Slider = () => {
     const images = [
-        "https://i.postimg.cc/SsR1Xvpr/201008-405.webp",
-        "https://i.postimg.cc/XqHVfhZY/8f296ac9-a997-4c89-8bc4-c01912cf46eb.webp",
-        "https://i.postimg.cc/d0jcRXpc/FRF-3862.webp",
-        "https://i.postimg.cc/s2w0gRbx/FRF-4053.webp",
-        "https://i.postimg.cc/k5rXvJTD/IMG-0753.webp",
+        "https://i.postimg.cc/4xTpVwNG/Local.avif",
+        "https://i.postimg.cc/50kwzVjK/Local-detras.jpg",
+        "https://i.postimg.cc/ZnB6FMdb/Local-detras-2.png",
+        "https://i.postimg.cc/J7vN4MfG/Local-detras-3.avif"
+        
 
     ];
 

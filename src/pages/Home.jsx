@@ -9,7 +9,11 @@ const Home = () => {
 		<div className="inicio">
 			<Slider />
 			<div className='titulo-home'>
-				<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Placeat enim praesentium soluta cumque nam sint porro sunt ab nihil unde repellat dolore odio voluptatem voluptatum impedit accusamus, architecto repudiandae. Tempore.</p>
+				<p>
+				Los diseños de 
+				<strong>Alesca alta costura</strong> 
+				están llenos de detalles hermosos que hacen al vestido único.
+				</p>
 
 			</div>
 			<HorizontalScroll />

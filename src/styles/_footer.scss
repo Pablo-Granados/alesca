@@ -3,26 +3,27 @@
     background-color: var(--light-black);
     color: var(--white);
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
 }
 
 .ubicacion {
-    margin-left: 0.2rem;
-    margin-right: 0.2rem;
-    width: 40%;
+    text-align: center;
 }
 
 .redes {
-    width: 50%;
+    width: 80%;
+    margin-left: 15px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .redes a img {
-    width: 30px;
-    margin: 0.5rem;
+    width: 50px;
+    margin: 0.8rem;
     transform: scale(1);
 
     &:hover {
@@ -35,6 +36,9 @@
     display: flex;
     flex-direction: column;
     text-align: center;
+    background-color: var(--white);
+    color: var(--dorado);
+    font-weight: bolder;
 }
 
 

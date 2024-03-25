@@ -11,7 +11,7 @@ import MyAccount from '../pages/MyAccount'
 import NewPassword from '../pages/NewPassword'
 import NotFound from '../pages/NotFound'
 import SendEmail from '../pages/SendEmail'
-import Turnos from '../turnero/Turnos'
+// import Turnos from '../turnero/Turnos'
 import Fiestas from '../pages/Fiestas'
 import Graduaciones from '../pages/Graduaciones'
 import Niñas from '../pages/Niñas'
@@ -38,7 +38,7 @@ const App = () => {
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Subir />
-        <Turnos />
+        {/* <Turnos /> */}
         <Footer />
       </Layout>
     </BrowserRouter>

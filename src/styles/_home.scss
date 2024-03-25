@@ -24,8 +24,17 @@
     p{
         align-items: center;
         display: flex;
+        flex-direction: column;
         width: 90%;
+        font-size: xx-large;
+
+
+        strong{
+            display: flex;
+            color: var(--dorado);
+        }
     }
+
 }
 
 .subtitulo-home{
