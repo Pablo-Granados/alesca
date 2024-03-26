@@ -14,14 +14,16 @@ const Footer = () => {
             <div className="redes">
                 <h2>Escribinos a nuestras redes sociales</h2>
                 <a href="https://www.instagram.com/alescaaltacostura/?hl=es" target="_blank">
-                    <img src="https://i.postimg.cc/Njjv2w5c/icons8-instagram-48.png" alt="Icono de instagram" />
+                    <img src="https://i.postimg.cc/dtkZ51sv/icons8-instagram-50.png" alt="Icono de instagram" />
                 </a>
                 <a href="https://wa.me/5493416746772?text=Hola! Me gustaría agendar una cita." target="_blank">
-                    <img src="https://i.postimg.cc/HnNX0mdh/icons8-whatsapp-48.png" alt="Icono de whats app" />
+                    <img src="https://i.postimg.cc/xTDNFQcz/icons8-whatsapp-50.png" alt="Icono de whats app" />
                 </a>
             </div>
             <div className="copy">
-                <p>© Desarrollado por Pablo Granados.</p>
+                    <a href="https://www.linkedin.com/in/pablongranados/" target="_blank">
+                        <p>© Desarrollado por Pablo Granados.</p>
+                    </a>
             </div>
 
         </div>

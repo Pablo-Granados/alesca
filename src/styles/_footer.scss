@@ -22,7 +22,7 @@
 }
 
 .redes a img {
-    width: 50px;
+    width: 40px;
     margin: 0.8rem;
     transform: scale(1);
 
@@ -37,8 +37,15 @@
     flex-direction: column;
     text-align: center;
     background-color: var(--white);
-    color: var(--dorado);
     font-weight: bolder;
+    text-decoration: none;
+
+    a {
+        text-decoration: none;
+        color: var(--dorado);
+        cursor: pointer;
+    }
+
 }
 
 
